@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fec0fc98-f049-4d7f-bae1-eb04ddfc3a56" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="fec0fc98-f049-4d7f-bae1-eb04ddfc3a56" name="Changes" comment="new">
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/XPathSelectors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/SelectorsCss.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SelectorsCss.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/StartTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/StartTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +49,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Olich800"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Olich800&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Olich800/StartSelenium.git",
-    "accountId": "ed60e7a8-4d4c-4762-8106-5ab9885038b8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Olich800/StartSelenium.git&quot;,
+    &quot;accountId&quot;: &quot;ed60e7a8-4d4c-4762-8106-5ab9885038b8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -81,12 +79,15 @@
     "Gradle.StartTest.executor": "Run",
     "Gradle.StartTest.firstTest.executor": "Run",
     "Gradle.StartTest.secondTest.executor": "Run",
+    "Gradle.XPathSelectors.executor": "Run",
+    "Gradle.XPathSelectors.methodXPath.executor": "Run",
+    "Gradle.xPathSelectors.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.SelectorsCss.elementsHeaderIlCarro">
+  <component name="RunManager" selected="Gradle.xPathSelectors">
     <configuration name="SelectorsCss" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -135,7 +136,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StartTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="XPathSelectors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -148,7 +149,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.StartTest&quot;" />
+            <option value="&quot;tests.XPathSelectors&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -159,7 +160,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StartTest.firstTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="XPathSelectors.methodXPath" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -172,7 +173,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.StartTest.firstTest&quot;" />
+            <option value="&quot;tests.XPathSelectors.methodXPath&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -183,7 +184,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="StartTest.secondTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="xPathSelectors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -196,7 +197,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;tests.StartTest.secondTest&quot;" />
+            <option value="&quot;tests.xPathSelectors&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -209,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SelectorsCss.elementsHeaderIlCarro" />
-        <item itemvalue="Gradle.StartTest.firstTest" />
-        <item itemvalue="Gradle.StartTest.secondTest" />
+        <item itemvalue="Gradle.xPathSelectors" />
+        <item itemvalue="Gradle.XPathSelectors.methodXPath" />
+        <item itemvalue="Gradle.XPathSelectors" />
         <item itemvalue="Gradle.SelectorsCss" />
-        <item itemvalue="Gradle.StartTest" />
+        <item itemvalue="Gradle.SelectorsCss.elementsHeaderIlCarro" />
       </list>
     </recent_temporary>
   </component>
@@ -226,6 +227,19 @@
       <option name="presentableId" value="Default" />
       <updated>1731605699492</updated>
     </task>
+    <task id="LOCAL-00001" summary="new">
+      <option name="closed" value="true" />
+      <created>1732100389827</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732100389827</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new" />
+    <option name="LAST_COMMIT_MESSAGE" value="new" />
   </component>
 </project>
